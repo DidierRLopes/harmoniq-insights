@@ -42,6 +42,11 @@ async def get_widgets():
 async def get_templates():
     with open(ROOT_PATH / "templates.json", "r") as f:
         return json.load(f)
+    
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
+
 
 @app.get("/equities_table")
 @register_widget({
