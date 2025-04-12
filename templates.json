@@ -1,0 +1,169 @@
+[
+    {
+        "name": "HarmoniQ Insights",
+        "img": "https://behave.co.uk/wp-content/uploads/2023/10/insight-driven-marketing-banner.png",
+        "img_dark": "",
+        "img_light": "",
+        "description": "Provides an overview and performance of bonds, commodities, currencies, digital assets, equities, and volatility.",
+        "allowCustomization": true,
+        "tabs": {
+            "equities": {
+                "id": "equities",
+                "name": "Equities",
+                "layout": [
+                {
+                    "i": "equities_table",
+                    "x": 0,
+                    "y": 2,
+                    "w": 40,
+                    "h": 9,
+                    "state": {
+                    "chartView": {
+                        "enabled": false,
+                        "chartType": "line"
+                    }
+                    }
+                },
+                {
+                    "i": "equity_performance",
+                    "x": 0,
+                    "y": 11,
+                    "w": 40,
+                    "h": 15
+                }
+                ]
+            },
+        "bonds": {
+            "id": "bonds",
+            "name": "Bonds",
+            "layout": [
+            {
+                "i": "bonds_table",
+                "x": 0,
+                "y": 2,
+                "w": 40,
+                "h": 8,
+                "state": {
+                "chartView": {
+                    "enabled": false,
+                    "chartType": "line"
+                }
+                }
+            },
+            {
+                "i": "bonds_performance",
+                "x": 0,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            }
+            ]
+        },
+        "commodities": {
+            "id": "commodities",
+            "name": "Commodities",
+            "layout": [
+            {
+                "i": "commodities_table",
+                "x": 0,
+                "y": 2,
+                "w": 40,
+                "h": 9,
+                "state": {
+                "chartView": {
+                    "enabled": false,
+                    "chartType": "line"
+                }
+                }
+            },
+            {
+                "i": "commodities_performance",
+                "x": 0,
+                "y": 11,
+                "w": 40,
+                "h": 15
+            }
+            ]
+        },
+        "currencies": {
+            "id": "currencies",
+            "name": "Currencies",
+            "layout": [
+            {
+                "i": "currencies_table",
+                "x": 0,
+                "y": 2,
+                "w": 40,
+                "h": 8,
+                "state": {
+                "chartView": {
+                    "enabled": false,
+                    "chartType": "line"
+                }
+                }
+            },
+            {
+                "i": "currencies_performance",
+                "x": 0,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            }
+            ]
+        },
+        "digital-assets": {
+            "id": "digital-assets",
+            "name": "Digital Assets",
+            "layout": [
+            {
+                "i": "digital_assets_table",
+                "x": 0,
+                "y": 2,
+                "w": 40,
+                "h": 6,
+                "state": {
+                "chartView": {
+                    "enabled": false,
+                    "chartType": "line"
+                }
+                }
+            },
+            {
+                "i": "digital_assets_performance",
+                "x": 0,
+                "y": 8,
+                "w": 40,
+                "h": 15
+            }
+            ]
+        },
+        "volatility": {
+            "id": "volatility",
+            "name": "Volatility",
+            "layout": [
+            {
+                "i": "volatility_table",
+                "x": 0,
+                "y": 2,
+                "w": 40,
+                "h": 6,
+                "state": {
+                "chartView": {
+                    "enabled": false,
+                    "chartType": "line"
+                }
+                }
+            },
+            {
+                "i": "volatility_performance",
+                "x": 0,
+                "y": 8,
+                "w": 40,
+                "h": 15
+            }
+            ]
+        }
+        },
+        "groups": []
+    }
+]
