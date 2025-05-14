@@ -6,3 +6,5 @@ plotly
 openbb
 python-multipart
 fastapi-cors
+curl_cffi
+openbb-yfinance

@@ -38,9 +38,9 @@ def read_root():
 async def get_widgets():
     return WIDGETS
 
-@app.get("/templates.json")
-async def get_templates():
-    with open(ROOT_PATH / "templates.json", "r") as f:
+@app.get("/apps.json")
+async def get_apps():
+    with open(ROOT_PATH / "apps.json", "r") as f:
         return json.load(f)
     
 @app.get("/health")
